@@ -18,4 +18,4 @@
  * `life_exp_birth`: Life expectancy at birth. [Years]
  * `hdi`: Human Development Index as calculated by BPS. [1]
  
-**Comments:** I downloaded the data from BPS's site in as XSLX, merged the files into one workbook manually in Excel and converted them into long format using an R script. The exported RDS and CSV files are in this directory.
+**Comments:** I downloaded the data from BPS's site as XSLX, merged the files into one workbook manually in Excel and converted them into long format using an R script. The exported RDS and CSV files are in this directory.
