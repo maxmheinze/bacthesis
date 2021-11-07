@@ -1,0 +1,515 @@
+cr_id,cr_name,province_id,province_name,city
+0101,Aceh Barat,01,Aceh,FALSE
+0102,Aceh Barat Daya,01,Aceh,FALSE
+0103,Aceh Besar,01,Aceh,FALSE
+0104,Aceh Jaya,01,Aceh,FALSE
+0105,Aceh Selatan,01,Aceh,FALSE
+0106,Aceh Singkil,01,Aceh,FALSE
+0107,Aceh Tamiang,01,Aceh,FALSE
+0108,Aceh Tengah,01,Aceh,FALSE
+0109,Aceh Tenggara,01,Aceh,FALSE
+0110,Aceh Timur,01,Aceh,FALSE
+0111,Aceh Utara,01,Aceh,FALSE
+0112,Bener Meriah,01,Aceh,FALSE
+0113,Bireuen,01,Aceh,FALSE
+0114,Gayo Lues,01,Aceh,FALSE
+0115,Kota Banda Aceh,01,Aceh,TRUE
+0116,Kota Langsa,01,Aceh,TRUE
+0117,Kota Lhokseumawe,01,Aceh,TRUE
+0118,Kota Sabang,01,Aceh,TRUE
+0119,Kota Subulussalam,01,Aceh,TRUE
+0120,Nagan Raya,01,Aceh,FALSE
+0121,Pidie,01,Aceh,FALSE
+0122,Pidie Jaya,01,Aceh,FALSE
+0123,Simeulue,01,Aceh,FALSE
+0201,Badung,02,Bali,FALSE
+0202,Bangli,02,Bali,FALSE
+0203,Buleleng,02,Bali,FALSE
+0204,Gianyar,02,Bali,FALSE
+0205,Jembrana,02,Bali,FALSE
+0206,Karangasem,02,Bali,FALSE
+0207,Klungkung,02,Bali,FALSE
+0208,Kota Denpasar,02,Bali,TRUE
+0209,Tabanan,02,Bali,FALSE
+0301,Kota Cilegon,03,Banten,TRUE
+0302,Kota Serang,03,Banten,TRUE
+0303,Kota Tangerang,03,Banten,TRUE
+0304,Kota Tangerang Selatan,03,Banten,TRUE
+0305,Lebak,03,Banten,FALSE
+0306,Pandeglang,03,Banten,FALSE
+0307,Serang,03,Banten,FALSE
+0308,Tangerang,03,Banten,FALSE
+0401,Bengkulu Selatan,04,Bengkulu,FALSE
+0402,Bengkulu Tengah,04,Bengkulu,FALSE
+0403,Bengkulu Utara,04,Bengkulu,FALSE
+0404,Kaur,04,Bengkulu,FALSE
+0405,Kepahiang,04,Bengkulu,FALSE
+0406,Kota Bengkulu,04,Bengkulu,TRUE
+0407,Lebong,04,Bengkulu,FALSE
+0408,Mukomuko,04,Bengkulu,FALSE
+0409,Rejang Lebong,04,Bengkulu,FALSE
+0410,Seluma,04,Bengkulu,FALSE
+0501,Bantul,05,Daerah Istimewa Yogyakarta,FALSE
+0502,Gunung Kidul,05,Daerah Istimewa Yogyakarta,FALSE
+0503,Kota Yogyakarta,05,Daerah Istimewa Yogyakarta,TRUE
+0504,Kulon Progo,05,Daerah Istimewa Yogyakarta,FALSE
+0505,Sleman,05,Daerah Istimewa Yogyakarta,FALSE
+0601,Kepulauan Seribu,06,Daerah Khusus Ibukota Jakarta,FALSE
+0602,Kota Jakarta Barat,06,Daerah Khusus Ibukota Jakarta,TRUE
+0603,Kota Jakarta Pusat,06,Daerah Khusus Ibukota Jakarta,TRUE
+0604,Kota Jakarta Selatan,06,Daerah Khusus Ibukota Jakarta,TRUE
+0605,Kota Jakarta Timur,06,Daerah Khusus Ibukota Jakarta,TRUE
+0606,Kota Jakarta Utara,06,Daerah Khusus Ibukota Jakarta,TRUE
+0701,Boalemo,07,Gorontalo,FALSE
+0702,Bone Bolango,07,Gorontalo,FALSE
+0703,Gorontalo,07,Gorontalo,FALSE
+0704,Gorontalo Utara,07,Gorontalo,FALSE
+0705,Kota Gorontalo,07,Gorontalo,TRUE
+0706,Pohuwato,07,Gorontalo,FALSE
+0801,Batang Hari,08,Jambi,FALSE
+0802,Bungo,08,Jambi,FALSE
+0803,Kerinci,08,Jambi,FALSE
+0804,Kota Jambi,08,Jambi,TRUE
+0805,Kota Sungai Penuh,08,Jambi,TRUE
+0806,Merangin,08,Jambi,FALSE
+0807,Muaro Jambi,08,Jambi,FALSE
+0808,Sarolangun,08,Jambi,FALSE
+0809,Tanjung Jabung Barat,08,Jambi,FALSE
+0810,Tanjung Jabung Timur,08,Jambi,FALSE
+0811,Tebo,08,Jambi,FALSE
+0901,Bandung,09,Jawa Barat,FALSE
+0902,Bandung Barat,09,Jawa Barat,FALSE
+0903,Bekasi,09,Jawa Barat,FALSE
+0904,Bogor,09,Jawa Barat,FALSE
+0905,Ciamis,09,Jawa Barat,FALSE
+0906,Cianjur,09,Jawa Barat,FALSE
+0907,Cirebon,09,Jawa Barat,FALSE
+0908,Garut,09,Jawa Barat,FALSE
+0909,Indramayu,09,Jawa Barat,FALSE
+0910,Karawang,09,Jawa Barat,FALSE
+0911,Kota Bandung,09,Jawa Barat,TRUE
+0912,Kota Banjar,09,Jawa Barat,TRUE
+0913,Kota Bekasi,09,Jawa Barat,TRUE
+0914,Kota Bogor,09,Jawa Barat,TRUE
+0915,Kota Cimahi,09,Jawa Barat,TRUE
+0916,Kota Cirebon,09,Jawa Barat,TRUE
+0917,Kota Depok,09,Jawa Barat,TRUE
+0918,Kota Sukabumi,09,Jawa Barat,TRUE
+0919,Kota Tasikmalaya,09,Jawa Barat,TRUE
+0920,Kuningan,09,Jawa Barat,FALSE
+0921,Majalengka,09,Jawa Barat,FALSE
+0922,Pangandaran,09,Jawa Barat,FALSE
+0923,Purwakarta,09,Jawa Barat,FALSE
+0924,Subang,09,Jawa Barat,FALSE
+0925,Sukabumi,09,Jawa Barat,FALSE
+0926,Sumedang,09,Jawa Barat,FALSE
+0927,Tasikmalaya,09,Jawa Barat,FALSE
+1001,Banjarnegara,10,Jawa Tengah,FALSE
+1002,Banyumas,10,Jawa Tengah,FALSE
+1003,Batang,10,Jawa Tengah,FALSE
+1004,Blora,10,Jawa Tengah,FALSE
+1005,Boyolali,10,Jawa Tengah,FALSE
+1006,Brebes,10,Jawa Tengah,FALSE
+1007,Cilacap,10,Jawa Tengah,FALSE
+1008,Demak,10,Jawa Tengah,FALSE
+1009,Grobogan,10,Jawa Tengah,FALSE
+1010,Jepara,10,Jawa Tengah,FALSE
+1011,Karanganyar,10,Jawa Tengah,FALSE
+1012,Kebumen,10,Jawa Tengah,FALSE
+1013,Kendal,10,Jawa Tengah,FALSE
+1014,Klaten,10,Jawa Tengah,FALSE
+1015,Kota Magelang,10,Jawa Tengah,TRUE
+1016,Kota Pekalongan,10,Jawa Tengah,TRUE
+1017,Kota Salatiga,10,Jawa Tengah,TRUE
+1018,Kota Semarang,10,Jawa Tengah,TRUE
+1019,Kota Surakarta,10,Jawa Tengah,TRUE
+1020,Kota Tegal,10,Jawa Tengah,TRUE
+1021,Kudus,10,Jawa Tengah,FALSE
+1022,Magelang,10,Jawa Tengah,FALSE
+1023,Pati,10,Jawa Tengah,FALSE
+1024,Pekalongan,10,Jawa Tengah,FALSE
+1025,Pemalang,10,Jawa Tengah,FALSE
+1026,Purbalingga,10,Jawa Tengah,FALSE
+1027,Purworejo,10,Jawa Tengah,FALSE
+1028,Rembang,10,Jawa Tengah,FALSE
+1029,Semarang,10,Jawa Tengah,FALSE
+1030,Sragen,10,Jawa Tengah,FALSE
+1031,Sukoharjo,10,Jawa Tengah,FALSE
+1032,Tegal,10,Jawa Tengah,FALSE
+1033,Temanggung,10,Jawa Tengah,FALSE
+1034,Wonogiri,10,Jawa Tengah,FALSE
+1035,Wonosobo,10,Jawa Tengah,FALSE
+1101,Bangkalan,11,Jawa Timur,FALSE
+1102,Banyuwangi,11,Jawa Timur,FALSE
+1103,Blitar,11,Jawa Timur,FALSE
+1104,Bojonegoro,11,Jawa Timur,FALSE
+1105,Bondowoso,11,Jawa Timur,FALSE
+1106,Gresik,11,Jawa Timur,FALSE
+1107,Jember,11,Jawa Timur,FALSE
+1108,Jombang,11,Jawa Timur,FALSE
+1109,Kediri,11,Jawa Timur,FALSE
+1110,Kota Batu,11,Jawa Timur,TRUE
+1111,Kota Blitar,11,Jawa Timur,TRUE
+1112,Kota Kediri,11,Jawa Timur,TRUE
+1113,Kota Madiun,11,Jawa Timur,TRUE
+1114,Kota Malang,11,Jawa Timur,TRUE
+1115,Kota Mojokerto,11,Jawa Timur,TRUE
+1116,Kota Pasuruan,11,Jawa Timur,TRUE
+1117,Kota Probolinggo,11,Jawa Timur,TRUE
+1118,Kota Surabaya,11,Jawa Timur,TRUE
+1119,Lamongan,11,Jawa Timur,FALSE
+1120,Lumajang,11,Jawa Timur,FALSE
+1121,Madiun,11,Jawa Timur,FALSE
+1122,Magetan,11,Jawa Timur,FALSE
+1123,Malang,11,Jawa Timur,FALSE
+1124,Mojokerto,11,Jawa Timur,FALSE
+1125,Nganjuk,11,Jawa Timur,FALSE
+1126,Ngawi,11,Jawa Timur,FALSE
+1127,Pacitan,11,Jawa Timur,FALSE
+1128,Pamekasan,11,Jawa Timur,FALSE
+1129,Pasuruan,11,Jawa Timur,FALSE
+1130,Ponorogo,11,Jawa Timur,FALSE
+1131,Probolinggo,11,Jawa Timur,FALSE
+1132,Sampang,11,Jawa Timur,FALSE
+1133,Sidoarjo,11,Jawa Timur,FALSE
+1134,Situbondo,11,Jawa Timur,FALSE
+1135,Sumenep,11,Jawa Timur,FALSE
+1136,Trenggalek,11,Jawa Timur,FALSE
+1137,Tuban,11,Jawa Timur,FALSE
+1138,Tulungagung,11,Jawa Timur,FALSE
+1201,Bengkayang,12,Kalimantan Barat,FALSE
+1202,Kapuas Hulu,12,Kalimantan Barat,FALSE
+1203,Kayong Utara,12,Kalimantan Barat,FALSE
+1204,Ketapang,12,Kalimantan Barat,FALSE
+1205,Kota Pontianak,12,Kalimantan Barat,TRUE
+1206,Kota Singkawang,12,Kalimantan Barat,TRUE
+1207,Kubu Raya,12,Kalimantan Barat,FALSE
+1208,Landak,12,Kalimantan Barat,FALSE
+1209,Melawi,12,Kalimantan Barat,FALSE
+1210,Mempawah,12,Kalimantan Barat,FALSE
+1211,Sambas,12,Kalimantan Barat,FALSE
+1212,Sanggau,12,Kalimantan Barat,FALSE
+1213,Sekadau,12,Kalimantan Barat,FALSE
+1214,Sintang,12,Kalimantan Barat,FALSE
+1301,Balangan,13,Kalimantan Selatan,FALSE
+1302,Banjar,13,Kalimantan Selatan,FALSE
+1303,Barito Kuala,13,Kalimantan Selatan,FALSE
+1304,Hulu Sungai Selatan,13,Kalimantan Selatan,FALSE
+1305,Hulu Sungai Tengah,13,Kalimantan Selatan,FALSE
+1306,Hulu Sungai Utara,13,Kalimantan Selatan,FALSE
+1307,Kota Banjar Baru,13,Kalimantan Selatan,TRUE
+1308,Kota Banjarmasin,13,Kalimantan Selatan,TRUE
+1309,Kota Baru,13,Kalimantan Selatan,TRUE
+1310,Tabalong,13,Kalimantan Selatan,FALSE
+1311,Tanah Bumbu,13,Kalimantan Selatan,FALSE
+1312,Tanah Laut,13,Kalimantan Selatan,FALSE
+1313,Tapin,13,Kalimantan Selatan,FALSE
+1401,Barito Selatan,14,Kalimantan Tengah,FALSE
+1402,Barito Timur,14,Kalimantan Tengah,FALSE
+1403,Barito Utara,14,Kalimantan Tengah,FALSE
+1404,Gunung Mas,14,Kalimantan Tengah,FALSE
+1405,Kapuas,14,Kalimantan Tengah,FALSE
+1406,Katingan,14,Kalimantan Tengah,FALSE
+1407,Kota Palangka Raya,14,Kalimantan Tengah,TRUE
+1408,Kotawaringin Barat,14,Kalimantan Tengah,TRUE
+1409,Kotawaringin Timur,14,Kalimantan Tengah,TRUE
+1410,Lamandau,14,Kalimantan Tengah,FALSE
+1411,Murung Raya,14,Kalimantan Tengah,FALSE
+1412,Pulang Pisau,14,Kalimantan Tengah,FALSE
+1413,Seruyan,14,Kalimantan Tengah,FALSE
+1414,Sukamara,14,Kalimantan Tengah,FALSE
+1501,Berau,15,Kalimantan Timur,FALSE
+1502,Kota Balikpapan,15,Kalimantan Timur,TRUE
+1503,Kota Bontang,15,Kalimantan Timur,TRUE
+1504,Kota Samarinda,15,Kalimantan Timur,TRUE
+1505,Kutai Barat,15,Kalimantan Timur,FALSE
+1506,Kutai Kartanegara,15,Kalimantan Timur,FALSE
+1507,Kutai Timur,15,Kalimantan Timur,FALSE
+1508,Mahakam Ulu,15,Kalimantan Timur,FALSE
+1509,Paser,15,Kalimantan Timur,FALSE
+1510,Penajam Paser Utara,15,Kalimantan Timur,FALSE
+1601,Bulungan,16,Kalimantan Utara,FALSE
+1602,Kota Tarakan,16,Kalimantan Utara,TRUE
+1603,Malinau,16,Kalimantan Utara,FALSE
+1604,Nunukan,16,Kalimantan Utara,FALSE
+1605,Tana Tidung,16,Kalimantan Utara,FALSE
+1701,Bangka,17,Kepulauan Bangka Belitung,FALSE
+1702,Bangka Barat,17,Kepulauan Bangka Belitung,FALSE
+1703,Bangka Selatan,17,Kepulauan Bangka Belitung,FALSE
+1704,Bangka Tengah,17,Kepulauan Bangka Belitung,FALSE
+1705,Belitung,17,Kepulauan Bangka Belitung,FALSE
+1706,Belitung Timur,17,Kepulauan Bangka Belitung,FALSE
+1707,Kota Pangkal Pinang,17,Kepulauan Bangka Belitung,TRUE
+1801,Bintan,18,Kepulauan Riau,FALSE
+1802,Karimun,18,Kepulauan Riau,FALSE
+1803,Kepulauan Anambas,18,Kepulauan Riau,FALSE
+1804,Kota Batam,18,Kepulauan Riau,TRUE
+1805,Kota Tanjung Pinang,18,Kepulauan Riau,TRUE
+1806,Lingga,18,Kepulauan Riau,FALSE
+1807,Natuna,18,Kepulauan Riau,FALSE
+1901,Kota Bandar Lampung,19,Lampung,TRUE
+1902,Kota Metro,19,Lampung,TRUE
+1903,Lampung Barat,19,Lampung,FALSE
+1904,Lampung Selatan,19,Lampung,FALSE
+1905,Lampung Tengah,19,Lampung,FALSE
+1906,Lampung Timur,19,Lampung,FALSE
+1907,Lampung Utara,19,Lampung,FALSE
+1908,Mesuji,19,Lampung,FALSE
+1909,Pesawaran,19,Lampung,FALSE
+1910,Pesisir Barat,19,Lampung,FALSE
+1911,Pringsewu,19,Lampung,FALSE
+1912,Tanggamus,19,Lampung,FALSE
+1913,Tulang Bawang Barat,19,Lampung,FALSE
+1914,Tulangbawang,19,Lampung,FALSE
+1915,Way Kanan,19,Lampung,FALSE
+2001,Buru,20,Maluku,FALSE
+2002,Buru Selatan,20,Maluku,FALSE
+2003,Kepulauan Aru,20,Maluku,FALSE
+2004,Kota Ambon,20,Maluku,TRUE
+2005,Kota Tual,20,Maluku,TRUE
+2006,Maluku Barat Daya,20,Maluku,FALSE
+2007,Maluku Tengah,20,Maluku,FALSE
+2008,Maluku Tenggara,20,Maluku,FALSE
+2009,Maluku Tenggara Barat,20,Maluku,FALSE
+2010,Seram Bagian Barat,20,Maluku,FALSE
+2011,Seram Bagian Timur,20,Maluku,FALSE
+2101,Halmahera Barat,21,Maluku Utara,FALSE
+2102,Halmahera Selatan,21,Maluku Utara,FALSE
+2103,Halmahera Tengah,21,Maluku Utara,FALSE
+2104,Halmahera Timur,21,Maluku Utara,FALSE
+2105,Halmahera Utara,21,Maluku Utara,FALSE
+2106,Kepulauan Sula,21,Maluku Utara,FALSE
+2107,Kota Ternate,21,Maluku Utara,TRUE
+2108,Kota Tidore Kepulauan,21,Maluku Utara,TRUE
+2109,Pulau Morotai,21,Maluku Utara,FALSE
+2110,Pulau Taliabu,21,Maluku Utara,FALSE
+2201,Bima,22,Nusa Tenggara Barat,FALSE
+2202,Dompu,22,Nusa Tenggara Barat,FALSE
+2203,Kota Bima,22,Nusa Tenggara Barat,TRUE
+2204,Kota Mataram,22,Nusa Tenggara Barat,TRUE
+2205,Lombok Barat,22,Nusa Tenggara Barat,FALSE
+2206,Lombok Tengah,22,Nusa Tenggara Barat,FALSE
+2207,Lombok Timur,22,Nusa Tenggara Barat,FALSE
+2208,Lombok Utara,22,Nusa Tenggara Barat,FALSE
+2209,Sumbawa,22,Nusa Tenggara Barat,FALSE
+2210,Sumbawa Barat,22,Nusa Tenggara Barat,FALSE
+2301,Alor,23,Nusa Tenggara Timur,FALSE
+2302,Belu,23,Nusa Tenggara Timur,FALSE
+2303,Ende,23,Nusa Tenggara Timur,FALSE
+2304,Flores Timur,23,Nusa Tenggara Timur,FALSE
+2305,Kota Kupang,23,Nusa Tenggara Timur,TRUE
+2306,Kupang,23,Nusa Tenggara Timur,FALSE
+2307,Lembata,23,Nusa Tenggara Timur,FALSE
+2308,Malaka,23,Nusa Tenggara Timur,FALSE
+2309,Manggarai,23,Nusa Tenggara Timur,FALSE
+2310,Manggarai Barat,23,Nusa Tenggara Timur,FALSE
+2311,Manggarai Timur,23,Nusa Tenggara Timur,FALSE
+2312,Nagekeo,23,Nusa Tenggara Timur,FALSE
+2313,Ngada,23,Nusa Tenggara Timur,FALSE
+2314,Rote Ndao,23,Nusa Tenggara Timur,FALSE
+2315,Sabu Raijua,23,Nusa Tenggara Timur,FALSE
+2316,Sikka,23,Nusa Tenggara Timur,FALSE
+2317,Sumba Barat,23,Nusa Tenggara Timur,FALSE
+2318,Sumba Barat Daya,23,Nusa Tenggara Timur,FALSE
+2319,Sumba Tengah,23,Nusa Tenggara Timur,FALSE
+2320,Sumba Timur,23,Nusa Tenggara Timur,FALSE
+2321,Timor Tengah Selatan,23,Nusa Tenggara Timur,FALSE
+2322,Timor Tengah Utara,23,Nusa Tenggara Timur,FALSE
+2401,Asmat,24,Papua,FALSE
+2402,Biak Numfor,24,Papua,FALSE
+2403,Boven Digoel,24,Papua,FALSE
+2404,Deiyai,24,Papua,FALSE
+2405,Dogiyai,24,Papua,FALSE
+2406,Intan Jaya,24,Papua,FALSE
+2407,Jayapura,24,Papua,FALSE
+2408,Jayawijaya,24,Papua,FALSE
+2409,Keerom,24,Papua,FALSE
+2410,Kepulauan Yapen,24,Papua,FALSE
+2411,Kota Jayapura,24,Papua,TRUE
+2412,Lanny Jaya,24,Papua,FALSE
+2413,Mamberamo Raya,24,Papua,FALSE
+2414,Mamberamo Tengah,24,Papua,FALSE
+2415,Mappi,24,Papua,FALSE
+2416,Merauke,24,Papua,FALSE
+2417,Mimika,24,Papua,FALSE
+2418,Nabire,24,Papua,FALSE
+2419,Nduga,24,Papua,FALSE
+2420,Paniai,24,Papua,FALSE
+2421,Pegunungan Bintang,24,Papua,FALSE
+2422,Puncak,24,Papua,FALSE
+2423,Puncak Jaya,24,Papua,FALSE
+2424,Sarmi,24,Papua,FALSE
+2425,Supiori,24,Papua,FALSE
+2426,Tolikara,24,Papua,FALSE
+2427,Waropen,24,Papua,FALSE
+2428,Yahukimo,24,Papua,FALSE
+2429,Yalimo,24,Papua,FALSE
+2501,Fakfak,25,Papua Barat,FALSE
+2502,Kaimana,25,Papua Barat,FALSE
+2503,Kota Sorong,25,Papua Barat,TRUE
+2504,Manokwari,25,Papua Barat,FALSE
+2505,Manokwari Selatan,25,Papua Barat,FALSE
+2506,Maybrat,25,Papua Barat,FALSE
+2507,Pegunungan Arfak,25,Papua Barat,FALSE
+2508,Raja Ampat,25,Papua Barat,FALSE
+2509,Sorong,25,Papua Barat,FALSE
+2510,Sorong Selatan,25,Papua Barat,FALSE
+2511,Tambrauw,25,Papua Barat,FALSE
+2512,Teluk Bintuni,25,Papua Barat,FALSE
+2513,Teluk Wondama,25,Papua Barat,FALSE
+2601,Bengkalis,26,Riau,FALSE
+2602,Indragiri Hilir,26,Riau,FALSE
+2603,Indragiri Hulu,26,Riau,FALSE
+2604,Kampar,26,Riau,FALSE
+2605,Kepulauan Meranti,26,Riau,FALSE
+2606,Kota Dumai,26,Riau,TRUE
+2607,Kota Pekanbaru,26,Riau,TRUE
+2608,Kuantan Singingi,26,Riau,FALSE
+2609,Pelalawan,26,Riau,FALSE
+2610,Rokan Hilir,26,Riau,FALSE
+2611,Rokan Hulu,26,Riau,FALSE
+2612,Siak,26,Riau,FALSE
+2701,Majene,27,Sulawesi Barat,FALSE
+2702,Mamasa,27,Sulawesi Barat,FALSE
+2703,Mamuju,27,Sulawesi Barat,FALSE
+2704,Mamuju Tengah,27,Sulawesi Barat,FALSE
+2705,Mamuju Utara,27,Sulawesi Barat,FALSE
+2706,Polewali Mandar,27,Sulawesi Barat,FALSE
+2801,Bantaeng,28,Sulawesi Selatan,FALSE
+2802,Barru,28,Sulawesi Selatan,FALSE
+2803,Bone,28,Sulawesi Selatan,FALSE
+2804,Bulukumba,28,Sulawesi Selatan,FALSE
+2805,Enrekang,28,Sulawesi Selatan,FALSE
+2806,Gowa,28,Sulawesi Selatan,FALSE
+2807,Jeneponto,28,Sulawesi Selatan,FALSE
+2808,Kepulauan Selayar,28,Sulawesi Selatan,FALSE
+2809,Kota Makassar,28,Sulawesi Selatan,TRUE
+2810,Kota Palopo,28,Sulawesi Selatan,TRUE
+2811,Kota Parepare,28,Sulawesi Selatan,TRUE
+2812,Luwu,28,Sulawesi Selatan,FALSE
+2813,Luwu Timur,28,Sulawesi Selatan,FALSE
+2814,Luwu Utara,28,Sulawesi Selatan,FALSE
+2815,Maros,28,Sulawesi Selatan,FALSE
+2816,Pangkajene dan Kepulauan,28,Sulawesi Selatan,FALSE
+2817,Pinrang,28,Sulawesi Selatan,FALSE
+2818,Sidenreng Rappang,28,Sulawesi Selatan,FALSE
+2819,Sinjai,28,Sulawesi Selatan,FALSE
+2820,Soppeng,28,Sulawesi Selatan,FALSE
+2821,Takalar,28,Sulawesi Selatan,FALSE
+2822,Tana Toraja,28,Sulawesi Selatan,FALSE
+2823,Toraja Utara,28,Sulawesi Selatan,FALSE
+2824,Wajo,28,Sulawesi Selatan,FALSE
+2901,Banggai,29,Sulawesi Tengah,FALSE
+2902,Banggai Kepulauan,29,Sulawesi Tengah,FALSE
+2903,Banggai Laut,29,Sulawesi Tengah,FALSE
+2904,Buol,29,Sulawesi Tengah,FALSE
+2905,Donggala,29,Sulawesi Tengah,FALSE
+2906,Kota Palu,29,Sulawesi Tengah,TRUE
+2907,Morowali,29,Sulawesi Tengah,FALSE
+2908,Morowali Utara,29,Sulawesi Tengah,FALSE
+2909,Parigi Moutong,29,Sulawesi Tengah,FALSE
+2910,Poso,29,Sulawesi Tengah,FALSE
+2911,Sigi,29,Sulawesi Tengah,FALSE
+2912,Tojo Una-Una,29,Sulawesi Tengah,FALSE
+2913,Toli-Toli,29,Sulawesi Tengah,FALSE
+3001,Bombana,30,Sulawesi Tenggara,FALSE
+3002,Buton,30,Sulawesi Tenggara,FALSE
+3003,Buton Selatan,30,Sulawesi Tenggara,FALSE
+3004,Buton Tengah,30,Sulawesi Tenggara,FALSE
+3005,Buton Utara,30,Sulawesi Tenggara,FALSE
+3006,Kolaka,30,Sulawesi Tenggara,FALSE
+3007,Kolaka Timur,30,Sulawesi Tenggara,FALSE
+3008,Kolaka Utara,30,Sulawesi Tenggara,FALSE
+3009,Konawe,30,Sulawesi Tenggara,FALSE
+3010,Konawe Kepulauan,30,Sulawesi Tenggara,FALSE
+3011,Konawe Selatan,30,Sulawesi Tenggara,FALSE
+3012,Konawe Utara,30,Sulawesi Tenggara,FALSE
+3013,Kota Baubau,30,Sulawesi Tenggara,TRUE
+3014,Kota Kendari,30,Sulawesi Tenggara,TRUE
+3015,Muna,30,Sulawesi Tenggara,FALSE
+3016,Muna Barat,30,Sulawesi Tenggara,FALSE
+3017,Wakatobi,30,Sulawesi Tenggara,FALSE
+3101,Bolaang Mongondow,31,Sulawesi Utara,FALSE
+3102,Bolaang Mongondow Selatan,31,Sulawesi Utara,FALSE
+3103,Bolaang Mongondow Timur,31,Sulawesi Utara,FALSE
+3104,Bolaang Mongondow Utara,31,Sulawesi Utara,FALSE
+3105,Kepulauan Sangihe,31,Sulawesi Utara,FALSE
+3106,Kepulauan Talaud,31,Sulawesi Utara,FALSE
+3107,Kota Bitung,31,Sulawesi Utara,TRUE
+3108,Kota Kotamobagu,31,Sulawesi Utara,TRUE
+3109,Kota Manado,31,Sulawesi Utara,TRUE
+3110,Kota Tomohon,31,Sulawesi Utara,TRUE
+3111,Minahasa,31,Sulawesi Utara,FALSE
+3112,Minahasa Selatan,31,Sulawesi Utara,FALSE
+3113,Minahasa Tenggara,31,Sulawesi Utara,FALSE
+3114,Minahasa Utara,31,Sulawesi Utara,FALSE
+3115,Siau Tagulandang Biaro,31,Sulawesi Utara,FALSE
+3201,Agam,32,Sumatera Barat,FALSE
+3202,Dharmasraya,32,Sumatera Barat,FALSE
+3203,Kepulauan Mentawai,32,Sumatera Barat,FALSE
+3204,Kota Bukittinggi,32,Sumatera Barat,TRUE
+3205,Kota Padang,32,Sumatera Barat,TRUE
+3206,Kota Padang Panjang,32,Sumatera Barat,TRUE
+3207,Kota Pariaman,32,Sumatera Barat,TRUE
+3208,Kota Payakumbuh,32,Sumatera Barat,TRUE
+3209,Kota Sawah Lunto,32,Sumatera Barat,TRUE
+3210,Kota Solok,32,Sumatera Barat,TRUE
+3211,Lima Puluh Kota,32,Sumatera Barat,TRUE
+3212,Padang Pariaman,32,Sumatera Barat,FALSE
+3213,Pasaman,32,Sumatera Barat,FALSE
+3214,Pasaman Barat,32,Sumatera Barat,FALSE
+3215,Pesisir Selatan,32,Sumatera Barat,FALSE
+3216,Sijunjung,32,Sumatera Barat,FALSE
+3217,Solok,32,Sumatera Barat,FALSE
+3218,Solok Selatan,32,Sumatera Barat,FALSE
+3219,Tanah Datar,32,Sumatera Barat,FALSE
+3301,Banyu Asin,33,Sumatera Selatan,FALSE
+3302,Empat Lawang,33,Sumatera Selatan,FALSE
+3303,Kota Lubuklinggau,33,Sumatera Selatan,TRUE
+3304,Kota Pagar Alam,33,Sumatera Selatan,TRUE
+3305,Kota Palembang,33,Sumatera Selatan,TRUE
+3306,Kota Prabumulih,33,Sumatera Selatan,TRUE
+3307,Lahat,33,Sumatera Selatan,FALSE
+3308,Muara Enim,33,Sumatera Selatan,FALSE
+3309,Musi Banyuasin,33,Sumatera Selatan,FALSE
+3310,Musi Rawas,33,Sumatera Selatan,FALSE
+3311,Musi Rawas Utara,33,Sumatera Selatan,FALSE
+3312,Ogan Ilir,33,Sumatera Selatan,FALSE
+3313,Ogan Komering Ilir,33,Sumatera Selatan,FALSE
+3314,Ogan Komering Ulu,33,Sumatera Selatan,FALSE
+3315,Ogan Komering Ulu Selatan,33,Sumatera Selatan,FALSE
+3316,Ogan Komering Ulu Timur,33,Sumatera Selatan,FALSE
+3317,Penukal Abab Lematang Ilir,33,Sumatera Selatan,FALSE
+3401,Asahan,34,Sumatera Utara,FALSE
+3402,Batu Bara,34,Sumatera Utara,FALSE
+3403,Dairi,34,Sumatera Utara,FALSE
+3404,Deli Serdang,34,Sumatera Utara,FALSE
+3405,Humbang Hasundutan,34,Sumatera Utara,FALSE
+3406,Karo,34,Sumatera Utara,FALSE
+3407,Kota Binjai,34,Sumatera Utara,TRUE
+3408,Kota Gunungsitoli,34,Sumatera Utara,TRUE
+3409,Kota Medan,34,Sumatera Utara,TRUE
+3410,Kota Padangsidimpuan,34,Sumatera Utara,TRUE
+3411,Kota Pematang Siantar,34,Sumatera Utara,TRUE
+3412,Kota Sibolga,34,Sumatera Utara,TRUE
+3413,Kota Tanjung Balai,34,Sumatera Utara,TRUE
+3414,Kota Tebing Tinggi,34,Sumatera Utara,TRUE
+3415,Labuhan Batu,34,Sumatera Utara,FALSE
+3416,Labuhan Batu Selatan,34,Sumatera Utara,FALSE
+3417,Labuhan Batu Utara,34,Sumatera Utara,FALSE
+3418,Langkat,34,Sumatera Utara,FALSE
+3419,Mandailing Natal,34,Sumatera Utara,FALSE
+3420,Nias,34,Sumatera Utara,FALSE
+3421,Nias Barat,34,Sumatera Utara,FALSE
+3422,Nias Selatan,34,Sumatera Utara,FALSE
+3423,Nias Utara,34,Sumatera Utara,FALSE
+3424,Padang Lawas,34,Sumatera Utara,FALSE
+3425,Padang Lawas Utara,34,Sumatera Utara,FALSE
+3426,Pakpak Bharat,34,Sumatera Utara,FALSE
+3427,Samosir,34,Sumatera Utara,FALSE
+3428,Serdang Bedagai,34,Sumatera Utara,FALSE
+3429,Simalungun,34,Sumatera Utara,FALSE
+3430,Tapanuli Selatan,34,Sumatera Utara,FALSE
+3431,Tapanuli Tengah,34,Sumatera Utara,FALSE
+3432,Tapanuli Utara,34,Sumatera Utara,FALSE
+3433,Toba Samosir,34,Sumatera Utara,FALSE
