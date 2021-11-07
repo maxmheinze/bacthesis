@@ -62,4 +62,4 @@
 
  * `city`: `TRUE` if the regional entity is a city (*kota*) and `FALSE` if it is a regency (*kabupaten*). 
  
-**Comments:** Inconsistencies in the alphabetical assignment of `rc_id` ID numbers can occur when additional cities or regencies appeared after the original compilation of this file. These are then appended at the end of the list of cities/regencies of their corresponding province. For more information on the dataset, see the Section "Socio-Economic Variables from BPS."
+**Comments:** Inconsistencies in the alphabetical assignment of `rc_id` ID numbers can occur when additional cities or regencies appeared after the original compilation of this file. These are then appended at the end of the list of cities/regencies of their corresponding province. There is currently no such case. For more information on the dataset used to create the codes, see the Section "Socio-Economic Variables from BPS." 
