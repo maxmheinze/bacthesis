@@ -1,5 +1,24 @@
 # Documentation: Data
 
+
+## Global Mining Polygons
+
+ **File Name:** `global_mining_polygons_v1.gpkg`
+ 
+ **Source:** Maus et al., <https://doi.org/10.1594/PANGAEA.910894>
+ 
+ **Contents:** Mining Polygons.
+ 
+ **Granularity:** Georeferenced Polygons.
+ 
+ **Variables:**
+ 
+ * `a`: a
+ 
+**Comments:** --
+
+
+
 ## Socio-Economic Variables from BPS
 
  **File Name:** `socec.RDS` and `socec.csv`
