@@ -13,7 +13,7 @@ pacman::p_load(
 
 socec <- read_rds("./data/socec.RDS")
 
-cr_keys <- read_csv("./data/city_regency_keys.csv")
+load("./dp/adm2.Rdata")
 
 
 # Data Wrangling ----------------------------------------------------------
@@ -25,12 +25,12 @@ socec[socec$region == "ToliToli", 1] <- "Toli-Toli"
 
 socec %<>%
   rename(cr_name = region) %>%
-  left_join(cr_keys, by = "cr_name")
+  left_join(adm2, by = "cr_name")
 
-# # Check if only level-1 or level-0 aggregates have an NA value as ID
-#
+# Check if only level-1 or level-0 aggregates have an NA value as ID
+
 # socec %>%
-#   filter(is.na(cr_id)) %>%
+#   filter(is.na(cr_code)) %>%
 #   pluck("cr_name") %>%
 #   unique() %>%
 #   sort()
@@ -39,7 +39,7 @@ socec %<>%
   drop_na()
 
 socec %<>%
-  relocate(8, 1, 9, 10, 2:7)
+  relocate(8, 1, 9, 2:7)
 
 
 # Save Data ---------------------------------------------------------------
