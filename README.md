@@ -7,8 +7,6 @@
 
 * `data` contains the original data files used.
 
-* `dp` contains data that has gone through one or more preparation processes.
-
 * `output` contains plots and other output files.
 
 Each folder contains a `documentation.md` document with additional information. The document containing the full text of my thesis is not part of this repository.
