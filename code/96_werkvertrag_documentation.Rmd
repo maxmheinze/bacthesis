@@ -1,0 +1,59 @@
+---
+title: '**Documentation: Indonesia Land Use and Socioeconomic Data**'
+author: "Max Heinze"
+date: "February 28, 2022"
+output: pdf_document
+papersize: a4
+urlcolor: MidnightBlue
+---
+
+# Data Description
+
+| **variable name**                              | **units**                | **description**                                                                                                |
+|--------------------------------------------|----------------------|------------------------------------------------------------------------------------------------------------|
+| year                                       |                      | The year.                                                                                                  |
+| cr_code                                    |                      | Identifier for the city/regency.                                                                           |
+| cr_name                                    |                      | Name of the city/regency.                                                                                  |
+| cr_statecode                               |                      | Identifier for the province the city/regency is located within.                                            |
+| expenditure                                | Thousands of Rupiahs | Average expenditure per person and year.                                                                   |
+| exp_schooling                              | years                | Expected years of schooling.                                                                               |
+| mean_schooling                             | years                | Mean years of schooling.                                                                                   |
+| life_exp_birth                             | years                | Life expectancy at birth.                                                                                  |
+| hdi                                        |                      | Human Development Index for the city/regency.                                                              |
+| area                                       | sq km                | Area of the city/regency.                                                                                  |
+| cropland_rainfed                           | relative             | Percentage of the c/r's area covered by rainfed cropland.                                                  |
+| cropland_rainfed_ herbaceous_cover          | relative             | Percentage of the c/r's area covered by herbaceous cropland.                                               |
+| cropland_rainfed_ tree_or_shrub_cover       | relative             | Percentage of the c/r's area covered by tree or shrub cropland.                                            |
+| mosaic_cropland                            | relative             | Percentage of the c/r's area covered by a mosaic of cropland (majority) and natural vegetation.            |
+| mosaic_natural_ vegetation                  | relative             | Percentage of the c/r's area covered by a mosaic of cropland and natural vegetation (majority).            |
+| tree_broadleaved_ evergreen_closed_to_open  | relative             | Percentage of the c/r's area covered by broadleaved trees.                                                 |
+| tree_cover_ flooded_fresh_or_ brakish_water  | relative             | Percentage of the c/r's area covered by flooded forests (fresh water).                                     |
+| tree_cover_ flooded_saline_water            | relative             | Percentage of the c/r's area covered by flooded forests (saline water).                                    |
+| urban                                      | relative             | Percentage of the c/r's area covered by urban settlements.                                                 |
+| water                                      | relative             | Percentage of the c/r's area covered by water.                                                             |
+| cropland_irrigated                         | relative             | Percentage of the c/r's area covered by irrigated cropland.                                                |
+| grassland                                  | relative             | Percentage of the c/r's area covered by grassland.                                                         |
+| mosaic_herbaceous                          | relative             | Percentage of the c/r's area covered by a mosaic of herbaceous vegetation (majority) and trees and shrubs. |
+| sparse_vegetation                          | relative             | Percentage of the c/r's area covered by sparse vegetation.                                                 |
+| tree_needleleaved_ deciduous_closed_ to_open | relative             | Percentage of the c/r's area covered by needleleaved trees.                                                |
+| mosaic_tree_and_shrub                      | relative             | Percentage of the c/r's area covered by a mosaic of herbaceous vegetation and trees and shrubs (majority). |
+| shrubland                                  | relative             | Percentage of the c/r's area covered by shrubland.                                                         |
+| shrubland_evergreen                        | relative             | Percentage of the c/r's area covered by evergreen shrubland.                                               |
+
+
+# Data Sources
+
+**Socioeconomic Variables:** 
+
+Badan Pusat Statistik (2021). *Human Development Indices* [Data Set]. <https://www.bps.go.id/subject/26/human-development-indices.html#subjekViewTab3>
+
+
+**Land Use Data:**
+
+European Space Agency (2017). *Land Cover CCI* [Data Set] <http://maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf>
+
+
+**City/Regency Metadata:**
+Badan Pusat Statistik (2020). *Indonesia - Subnational Administrative Boundaries* [Data Set]. <https://data.humdata.org/dataset/indonesia-administrative-boundary-polygons-lines-and-places-levels-0-4b>
+
+

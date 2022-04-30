@@ -13,8 +13,6 @@ pacman::p_load(
 
 socec <- read_rds("./data/socec.RDS")
 
-load("./dp/adm2.Rdata")
-
 
 # Data Wrangling ----------------------------------------------------------
 

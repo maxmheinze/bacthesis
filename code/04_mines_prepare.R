@@ -20,10 +20,10 @@ mining <- st_read("./data/global_mining_polygons_v1.gpkg")
 
 mining %<>%
   filter(ISO3_CODE == "IDN") %>%
-  select(-2)
+  dplyr::select(-2)
 
 
 
 # # Save Data ---------------------------------------------------------------
 # 
-# save(mining, file = "./dp/mining.Rdata")
+# save(mining, file = "./data/mining.Rdata")
