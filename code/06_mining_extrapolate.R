@@ -5,7 +5,8 @@ pacman::p_load(
   tidyverse,
   sf,
   raster,
-  rgdal
+  rgdal,
+  mapview
 )
 
 
@@ -20,11 +21,13 @@ pacman::p_load(
 # nl18 <- raster("./data/idn_nightlights_2018.tif")
 # nl19 <- raster("./data/idn_nightlights_2019.tif")
 # nl20 <- raster("./data/idn_nightlights_2020.tif")
-
-nl_list <- c("nl12", "nl13", "nl14", "nl15", "nl16",
-             "nl17", "nl18", "nl19", "nl20")
-
-load("./data/mining.Rdata")
+# 
+# nl_list <- c("nl12", "nl13", "nl14", "nl15", "nl16",
+#              "nl17", "nl18", "nl19", "nl20")
+# 
+ load("./data/mining.Rdata")
+# 
+# mining_buffered <- st_buffer(mining, 0.00277777777778) #10 arc seconds ~ 309 meters at equator
 
 
 # Extract points that intersect with mining polygons ----------------------
@@ -45,29 +48,166 @@ load("./data/mining.Rdata")
 # save(mines_nl19, file = "./data/mines_nl19.Rdata")
 # save(mines_nl20, file = "./data/mines_nl20.Rdata")
 
-load("./data/mines_nl12.Rdata")
-load("./data/mines_nl13.Rdata")
-load("./data/mines_nl14.Rdata")
-load("./data/mines_nl15.Rdata")
-load("./data/mines_nl16.Rdata")
-load("./data/mines_nl17.Rdata")
-load("./data/mines_nl18.Rdata")
-load("./data/mines_nl19.Rdata")
-load("./data/mines_nl20.Rdata")
 
-mines_nl_means <- matrix(ncol = length(nl_list), nrow = nrow(mining))
-i = 1
+# Extract points that intersect with buffered mining polygons -------------
 
-for(nlyr in nl_list) {
-  a <- lapply(eval(parse(text = paste("mines_", nlyr, sep = ""))), FUN=mean)
-  a <- unlist(a)
-  mines_nl_means[,i] <- a
-  i = i + 1
-}
+# for(nlyr in nl_list) {
+#   a <- extract(eval(parse(text = nlyr)), mining_buffered)
+#   assign(paste("mines_b_", nlyr, sep = ""), a)
+#   print(paste(nlyr, " done", sep = ""))
+# }
 
-mines_nl_means <- as.data.frame(mines_nl_means)
-colnames(mines_nl_means) <- nl_list
+# save(mines_b_nl12, file = "./data/mines_b_nl12.Rdata")
+# save(mines_b_nl13, file = "./data/mines_b_nl13.Rdata")
+# save(mines_b_nl14, file = "./data/mines_b_nl14.Rdata")
+# save(mines_b_nl15, file = "./data/mines_b_nl15.Rdata")
+# save(mines_b_nl16, file = "./data/mines_b_nl16.Rdata")
+# save(mines_b_nl17, file = "./data/mines_b_nl17.Rdata")
+# save(mines_b_nl18, file = "./data/mines_b_nl18.Rdata")
+# save(mines_b_nl19, file = "./data/mines_b_nl19.Rdata")
+# save(mines_b_nl20, file = "./data/mines_b_nl20.Rdata")
 
+
+# Concatenate -------------------------------------------------------------
+
+
+# load("./data/mines_nl12.Rdata")
+# load("./data/mines_nl13.Rdata")
+# load("./data/mines_nl14.Rdata")
+# load("./data/mines_nl15.Rdata")
+# load("./data/mines_nl16.Rdata")
+# load("./data/mines_nl17.Rdata")
+# load("./data/mines_nl18.Rdata")
+# load("./data/mines_nl19.Rdata")
+# load("./data/mines_nl20.Rdata")
+# 
+# mines_nl_means <- matrix(ncol = length(nl_list), nrow = nrow(mining))
+# i = 1
+# 
+# for(nlyr in nl_list) {
+#   a <- lapply(eval(parse(text = paste("mines_", nlyr, sep = ""))), FUN=mean)
+#   a <- unlist(a)
+#   mines_nl_means[,i] <- a
+#   i = i + 1
+# }
+# 
+# mines_nl_means <- as.data.frame(mines_nl_means)
+# colnames(mines_nl_means) <- nl_list
+# 
 # save(mines_nl_means, file = "./data/mines_nl_means.Rdata")
 # write_csv(mines_nl_means, "./data/mines_nl_means.csv")
 # write_rds(mines_nl_means, "./data/mines_nl_means.rds")
+# 
+# load("./data/mines_nl_means.Rdata")
+
+
+
+# Concatenate buffered ----------------------------------------------------
+
+
+# load("./data/mines_b_nl12.Rdata")
+# load("./data/mines_b_nl13.Rdata")
+# load("./data/mines_b_nl14.Rdata")
+# load("./data/mines_b_nl15.Rdata")
+# load("./data/mines_b_nl16.Rdata")
+# load("./data/mines_b_nl17.Rdata")
+# load("./data/mines_b_nl18.Rdata")
+# load("./data/mines_b_nl19.Rdata")
+# load("./data/mines_b_nl20.Rdata")
+# 
+# mines_b_nl_means <- matrix(ncol = length(nl_list), nrow = nrow(mining_buffered))
+# i = 1
+# 
+# for(nlyr in nl_list) {
+#   a <- lapply(eval(parse(text = paste("mines_b_", nlyr, sep = ""))), FUN=mean)
+#   a <- unlist(a)
+#   mines_b_nl_means[,i] <- a
+#   i = i + 1
+#   print(paste(nlyr, " done", sep = ""))
+# }
+# 
+# mines_b_nl_means <- as.data.frame(mines_b_nl_means)
+# colnames(mines_b_nl_means) <- nl_list
+# 
+# save(mines_b_nl_means, file = "./data/mines_b_nl_means.Rdata")
+# write_csv(mines_b_nl_means, "./data/mines_b_nl_means.csv")
+# write_rds(mines_b_nl_means, "./data/mines_b_nl_means.rds")
+
+load("./data/mines_b_nl_means.Rdata")
+
+
+
+# Quality Assurance: Buffered Data ----------------------------------------
+
+# mines_nl_means %>%
+#   mutate(mine_index = row_number()) %>%
+#   relocate(mine_index, .before = nl12) %>%
+#   pivot_longer(cols = nl12:nl20, names_prefix = "nl", names_to = "year", values_to = "nl_activity") %>%
+#   mutate(year = as.integer(as.integer(year) + 2000),
+#          mine_index = as.character(mine_index)) %>%
+#   
+#   ggplot() +
+#   geom_line(aes(x = as.integer(year), y = nl_activity, group = mine_index)) +
+#   ylim(c(0,2))
+# 
+# mines_b_nl_means %>%
+#   mutate(mine_index = row_number()) %>%
+#   relocate(mine_index, .before = nl12) %>%
+#   pivot_longer(cols = nl12:nl20, names_prefix = "nl", names_to = "year", values_to = "nl_activity") %>%
+#   mutate(year = as.integer(as.integer(year) + 2000),
+#          mine_index = as.character(mine_index)) %>%
+#   
+#   ggplot() +
+#   geom_line(aes(x = as.integer(year), y = nl_activity, group = mine_index)) +
+#   ylim(c(0,2))
+# 
+# mines_test <- mines_b_nl_means %>%
+#   filter(nl12 + nl13 + nl14 + nl15 + nl16 + nl17 + nl18 + nl19 + nl20 != 0)
+# 
+# mines_test %>%
+#   mutate(mine_index = row_number()) %>%
+#   relocate(mine_index, .before = nl12) %>%
+#   pivot_longer(cols = nl12:nl20, names_prefix = "nl", names_to = "year", values_to = "nl_activity") %>%
+#   mutate(year = as.integer(as.integer(year) + 2000),
+#          mine_index = as.character(mine_index)) %>%
+#   
+#   ggplot() +
+#   geom_line(aes(x = as.integer(year), y = nl_activity, group = mine_index)) +
+#   ylim(c(0,10))
+# 
+# mines_test <- mines_b_nl_means %>%
+#   filter(nl12 + nl13 + nl14 + nl15 + nl16 + nl17 + nl18 + nl19 + nl20 != 0)
+# 
+# mapview(mining)
+# 
+# mapview(nl12)
+
+
+# Interpolate Zeroes ------------------------------------------------------
+
+mines_nl_means %>%
+  pivot_longer(nl12:nl20, names_to = "year", names_prefix = "nl")
+
+mining %>%
+  cbind(mines_b_nl_means)
+
+mines_b_nl_means
+
+
+write.csv(mines_b_nl_means, "minesnlb.csv")
+
+mines_b_nl_means[mines_b_nl_means == 0] <- NA
+
+test1 <- mines_b_nl_means %>%
+  `colnames<-`(2012:2020) %>%
+  mutate(mine_index = 1:nrow(mines_b_nl_means)) %>%
+  pivot_longer(`2012`:`2020`) %>%
+  group_by(mine_index) %>%
+  mutate(value = value / max(value))
+  
+
+hist(test1$value)
+
+
+
+            
