@@ -25,5 +25,5 @@ mining %<>%
 
 
 # # Save Data ---------------------------------------------------------------
-# 
-# save(mining, file = "./data/mining.Rdata")
+
+ save(mining, file = "./data/mining.Rdata")

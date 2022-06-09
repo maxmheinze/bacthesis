@@ -27,12 +27,12 @@ adm2 %<>%
          cr_statecode = ADM1_PCODE)
 
 adm2 %<>%
-  select(4, 3, 9) %>%
+  dplyr::select(4, 3, 9) %>%
   drop_na()
 
 
 
 # # Save Data ---------------------------------------------------------------
-# 
-# save(adm2, file = "./dp/adm2.Rdata")
+
+save(adm2, file = "./data/adm2.Rdata")
 

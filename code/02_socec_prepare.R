@@ -39,7 +39,10 @@ socec %<>%
 socec %<>%
   relocate(8, 1, 9, 2:7)
 
+socec %<>%
+  dplyr::select(-geometry)
 
-# # Save Data ---------------------------------------------------------------
-# 
-# save(socec, file = "./dp/socec.Rdata")
+
+# Save Data ---------------------------------------------------------------
+
+save(socec, file = "./data/socec.Rdata")
