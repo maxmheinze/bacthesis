@@ -29,9 +29,14 @@ data_full <- socec %>%
 
 data_full[is.na(data_full)] <- 0
 
+data_full <- data_full %>%
+  mutate(mining_dummy = ifelse(mining_value == 0, 0, 1))
+
 
 # Export Data -------------------------------------------------------------
 
 save(data_full, file = "./data/data_full.RData")
 
 write_rds(data_full, file = "./data/data_full.rds")
+
+write_csv(data_full, file = "./data/data_full.csv")

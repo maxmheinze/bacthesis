@@ -1,11 +1,21 @@
 # Documentation: Code
 
+## Execution Script (00)
 
-## Data Preparation Scripts
+From this script, you can run all other scripts in the correct order.
 
-`landuse_prepare.R`, `mines_prepare.R`, `shapefile_prepare.R` and `socec_prepare.R` are used to prepare the data on land use, mining areas, location and shape of administrative subdivisions, and socioeconomic indicators, respectively. The output files of these processes are stored in `dp`. For more detailed information, refer to comments in the code.
+## Data Preparation Scripts (0x)
 
+These scripts are used to prepare the data on land use, mining, location and shape of administrative subdivisions, socioeconomic indicators, and all other data used later. 
 
-## Other Scripts
+## Data Exploration and Plotting Scripts (1x)
 
-All other files currently serve as placeholders.
+These scripts serve to explore data and produce plots that are included in the thesis. Model outputs are created from 2x scripts.
+
+## Modeling Scripts (2x)
+
+These script include everything related to the regression models.
+
+## Other Scripts (9x)
+
+Currently, the only script in this category served as a preparation script for night light data. The prepared data that is used in constructing the mining index is stored in `./data`.
