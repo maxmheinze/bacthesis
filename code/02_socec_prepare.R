@@ -1,11 +1,10 @@
 
 # Header ------------------------------------------------------------------
 
-# rm(list = ls())
+rm(list = ls())
 
 pacman::p_load(
-  tidyverse,
-  magrittr
+  tidyverse
 )
 
 
@@ -13,33 +12,37 @@ pacman::p_load(
 
 socec <- read_rds("./data/socec.RDS")
 
+load("./data/adm2.Rdata")
+
 
 # Data Wrangling ----------------------------------------------------------
+
+# Get rid of naming inconsistencies
 
 socec[socec$region == "Kep. Seribu", 1] <- "Kepulauan Seribu"
 socec[socec$region == "Kota Makasar", 1] <- "Kota Makassar"
 socec[socec$region == "Tojo UnaUna", 1] <- "Tojo Una-Una"
 socec[socec$region == "ToliToli", 1] <- "Toli-Toli"
 
-socec %<>%
+# Change variable names and join with shapefile for c/r codes
+
+socec <- socec %>%
   rename(cr_name = region) %>%
   left_join(adm2, by = "cr_name")
 
-# Check if only level-1 or level-0 aggregates have an NA value as ID
+# Drop NA values
 
-# socec %>%
-#   filter(is.na(cr_code)) %>%
-#   pluck("cr_name") %>%
-#   unique() %>%
-#   sort()
-
-socec %<>%
+socec <- socec %>%
   drop_na()
 
-socec %<>%
-  relocate(8, 1, 9, 2:7)
+# Relocate of variables
 
-socec %<>%
+socec <- socec %>%
+  relocate(cr_code, cr_name, cr_statecode, year:hdi)
+
+# Remove geometry column
+
+socec <- socec %>%
   dplyr::select(-geometry)
 
 

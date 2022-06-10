@@ -1,7 +1,7 @@
 
 # Header ------------------------------------------------------------------
 
-# rm(list = ls())
+rm(list = ls())
 
 pacman::p_load(
   tidyverse,
@@ -12,12 +12,17 @@ pacman::p_load(
 # Read Data ---------------------------------------------------------------
 
 lu <- readRDS("./data/landuse.RDS")
+
 load("./data/adm2.Rdata")
 
 
 # Transform ---------------------------------------------------------------
 
+# NA values are not NAs, they should be 0 -- change that
+
 lu[is.na(lu)] <- 0
+
+# Aggregate land use data to five land use categories
 
 lu <- lu %>% 
   rename(cr_code = ADM2_PCODA) %>%
@@ -46,6 +51,8 @@ lu <- lu %>%
            grassland,
          .keep = "unused") %>%
   dplyr::select(cr_code, year, tree_cover, cropland, other_veg, urban, water)
+
+# Calculate area, in addition to percentage, of land use
 
 lu <- lu %>%
   left_join(adm2, by = "cr_code") %>%
