@@ -46,6 +46,7 @@ mining_cr <- mining_values %>%
 
 save(mining, file = "./data/mining.Rdata")
 save(mining_cr, file = "./data/mining_cr.Rdata")
+save(mining_i, file = "./data/mining_i.Rdata")
 
 
  

@@ -32,6 +32,8 @@ data_full[is.na(data_full)] <- 0
 data_full <- data_full %>%
   mutate(mining_dummy = ifelse(mining_value == 0, 0, 1))
 
+length(is.na(data_full$mining_value))
+
 
 # Export Data -------------------------------------------------------------
 

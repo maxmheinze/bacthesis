@@ -17,7 +17,7 @@ mining <- st_read("./data/global_mining_polygons_v1.gpkg")
 
 # Data Wrangling ----------------------------------------------------------
 
-# Select only Indonesian mines,
+# Select only Indonesian mines
 
 mining <- mining %>%
   filter(ISO3_CODE == "IDN") %>%

@@ -47,7 +47,7 @@ mining_buffered <- st_buffer(mining, 0.00277777777778)
 # buffered mining polygons
 
 for(nlyr in nl_list) {
-  a <- extract(eval(parse(text = nlyr)), mining_buffered)
+  a <- raster::extract(eval(parse(text = nlyr)), mining_buffered)
   assign(paste("mines_b_", nlyr, sep = ""), a)
   print(paste(nlyr, " done", sep = ""))
 }
@@ -101,7 +101,7 @@ mining_values_prepare <- cbind(mines_b_nl_medians, mining) %>%
 mines_with_data <- mining_values_prepare %>%
   group_by(minecode) %>%
   summarize(value = sum(value)) %>%
-  filter(value != 0) %>%
+  filter(value > 0) %>%
   pluck("minecode")
 
 # Calculate median NL activity for mines for each year. Only use
@@ -131,11 +131,12 @@ mining_values_2 <- mining_values_prepare %>%
 
 mining_values <- rbind(mining_values_1, mining_values_2) %>%
   mutate(mining_value = value * AREA) %>%
-  dplyr::select(minecode, year, mining_value)
+  dplyr::select(minecode, year, value, mining_value)
 
 
 # Save Data ---------------------------------------------------------------
 
+save(mining_values_prepare, file = "./data/mining_values_prepare.Rdata")
 save(mining_values, file = "./data/mining_values.Rdata")
 
 
